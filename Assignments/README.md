@@ -2,4 +2,4 @@
 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   0   | link 0      | description 0          |
+|   1   | [P01](https://github.com/SamOlatunde/4143-PLC/blob/main/Assignments/P01/README.md)      | description 0          |
