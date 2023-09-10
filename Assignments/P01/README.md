@@ -7,6 +7,8 @@ In this assignment, we implement [this](https://www.youtube.com/watch?v=1MXIGYrM
 * implement a main.go file to run the mascot package
 * create a test to check your package is running correctly
 
+Aditionally, the program uses the quote.go package to print a quote on the console 
+
 
 
 
@@ -14,9 +16,9 @@ In this assignment, we implement [this](https://www.youtube.com/watch?v=1MXIGYrM
 
 |   #   | File             | Description                                        |
 | :---: | ---------------- | -------------------------------------------------- |
-|   1   | mascot.go[https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/mascot/mascot.go]         |  Contains frunction that returns name mascot of choice     |
-|   2   | mascot_test.go[https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/mascot/mascot_test.go]  | tests the "mascot.go" file         |
-|   3   | main.go[https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/main.go] | Driver code, uses runs tthe fucntion located in the mascot.go file and prints the result to the console|
+|   1   | [mascot.go](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/mascot/mascot.go)        |  Contains frunction that returns name mascot of choice     |
+|   2   | [mascot_test.go](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/mascot/mascot_test.go)  | tests the "mascot.go" file         |
+|   3   | [main.go](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/main.go) | Driver code, uses runs tthe fucntion located in the mascot.go file and prints the result to the console|
 
 
 ### Instructions
