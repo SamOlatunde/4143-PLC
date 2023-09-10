@@ -14,12 +14,12 @@ In this assignment, we implement [this](https://www.youtube.com/watch?v=1MXIGYrM
 
 |   #   | File             | Description                                        |
 | :---: | ---------------- | -------------------------------------------------- |
-|   1   | Main.cpp         | Main driver of my project that launches game.      |
-|   2   | HelperClass.cpp  | Helper class that holds movement functions         |
-|   3   | TextureClass.cpp | Helper class that assists with textures and images |
+|   1   | mascot.go[https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/mascot/mascot.go]         |  Contains frunction that returns name mascot of choice     |
+|   2   | mascot_test.go[https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/mascot/mascot_test.go]  | tests the "mascot.go" file         |
+|   3   | main.go[https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P01/main.go] | Driver code, uses runs tthe fucntion located in the mascot.go file and prints the result to the console|
 
 
 ### Instructions
 - Make sure to install the golang extension in vscode 
-
+- download the quote.go package
 
