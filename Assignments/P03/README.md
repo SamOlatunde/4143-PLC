@@ -15,5 +15,3 @@ For this program we implememtent 4 image manipulation/processing packages.
 |   4   | [Text](https://github.com/SamOlatunde/4143-PLC/Assignment/P03/tree/main/Text) | Exportable package that adds text to an image  |
 |   5   | [Colortest](https://github.com/SamOlatunde/4143-PLC/Assignment/P03/tree/main/Colortest) | package that tests the modules specifiied above|
 
-
-
