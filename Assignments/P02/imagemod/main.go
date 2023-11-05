@@ -12,5 +12,5 @@ func main() {
 	im.DrawRectangle(150, 50, 560, 411)
 
 	// Save the image to a file
-	im.SaveToFile("mustangs.png")
+	im.SaveToFile("C:/Users/User/Repositories/4143-PLC/Assignments/P02/imagemod/mustangs.png")
 }
