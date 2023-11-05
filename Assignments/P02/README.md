@@ -1,7 +1,6 @@
 
 ##  Program 2
 ### Samuel Olatunde 
-### Description:
 
 ## Project Background
 In this program we will try and show some advantages of Go when compared to C++ and Python. Every high level language has its strengths, and I think Golang's can be seen in its similarity to both aforementioned languages, but more so in its library availability. Not as strong as Python's but more so than C++'s. I would like us to create Go's version of a class, that will do some rudimentary image manipulation.
