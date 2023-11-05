@@ -13,5 +13,5 @@ For this program, we implemented 4 image manipulation/processing packages.
 |   2   | [GetPic](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P03/GetPic)  | Exportable package that converts gets a picture from a website        |
 |   3   | [Grayscale](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P03/Grayscale) | Exportable package that converts a picture to Grayscale |
 |   4   | [Text](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P03/Text) | Exportable package that adds text to an image  |
-|   5   | [Colortest](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P03/Colortest) | package that tests the modules specified above|
+|   5   | [Colortest](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P03/colortest) | package that tests the modules specified above|
 
