@@ -141,7 +141,7 @@ func downloadImage(url, filename string, wg *sync.WaitGroup, ch chan<- error) {
 	}
 
 	// Create a new file to save the image
-	outputFile, err := os.Create("C:/Users/User/Repositories/4143-PLC/Assignments/P04/downloaded images" + filename)
+	outputFile, err := os.Create("C:/Users/User/Repositories/4143-PLC/Assignments/P04/downloaded images/" + filename)
 	if err != nil {
 		if ch != nil {
 			ch <- fmt.Errorf("Error creating the file %s: %v", filename, err)
