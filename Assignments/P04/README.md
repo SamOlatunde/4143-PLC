@@ -24,7 +24,7 @@ The goal is to observe the benefits of concurrency for I/O-bound tasks, comparin
 
 ### Results:
 Sequential Logic took 1083710.6 ms.  
-Concureent Logic took 192.0054 ms.
+Concurrent Logic took 192.0054 ms.
 
 ## Files
 
