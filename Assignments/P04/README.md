@@ -23,8 +23,8 @@ The goal is to observe the benefits of concurrency for I/O-bound tasks, comparin
 9. [Pixabay Image](https://cdn.pixabay.com/photo/2017/05/11/12/35/girl-2304038_1280.jpg)
 
 ### Results:
-Sequential Logic took 1083710.6 ms
-Concureent Logic took 192.0054 ms
+Sequential Logic took 1083710.6 ms.
+Concureent Logic took 192.0054 ms.
 
 ## Files
 
