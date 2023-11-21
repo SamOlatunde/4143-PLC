@@ -15,7 +15,7 @@ func downloadImagesSequential(urls []string) {
 
 	for index, value := range urls {
 
-		downloadImage(value, fmt.Sprintf("image%d.jpg", index), nil, nil)
+		downloadImage(value, fmt.Sprintf("s_image%d.jpg", index), nil, nil)
 	}
 }
 
@@ -34,7 +34,7 @@ func downloadImagesConcurrent(urls []string) {
 		wg.Add(1)
 
 		// Launch a goroutine to download the image
-		go downloadImage(value, fmt.Sprintf("image%d.jpg", index), &wg, errCh)
+		go downloadImage(value, fmt.Sprintf("c_image%d.jpg", index), &wg, errCh)
 	}
 
 	// Wait for all goroutines to finish
@@ -141,7 +141,7 @@ func downloadImage(url, filename string, wg *sync.WaitGroup, ch chan<- error) {
 	}
 
 	// Create a new file to save the image
-	outputFile, err := os.Create(filename)
+	outputFile, err := os.Create("C:/Users/User/Repositories/4143-PLC/Assignments/P04/downloaded images" + filename)
 	if err != nil {
 		if ch != nil {
 			ch <- fmt.Errorf("Error creating the file %s: %v", filename, err)
