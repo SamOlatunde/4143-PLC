@@ -3,12 +3,12 @@
 
 ## Description
 
-This Go program is designed to concurrently download a set of images from given URLs and save them to disk. The program includes two versions of the downloader:
+This Go program is designed to download a set of images from given URLs and save them to disk. The program includes two versions of the downloader:
 
 1. **Sequential Version:** Downloads and saves each image one after the other.
 2. **Concurrent Version:** Downloads and saves images concurrently using goroutines.
 
-The goal is to observe the benefits of concurrency for I/O-bound tasks, comparing the time taken to download images sequentially vs. concurrently.
+The goal is to observe the benefits of concurrency for I/O-bound tasks, by comparing the time taken to download images sequentially vs. concurrently.
 
 ### Image URLs
 
@@ -26,12 +26,14 @@ The goal is to observe the benefits of concurrency for I/O-bound tasks, comparin
 Sequential Logic took **1083710.6 ms**.  
 Concurrent Logic took **192.0054 ms**.
 
+**Conclusion:** From the times shown, we see that the concurrent logic got the job done 5644.167299 times faster than the sequential logic. Therefore, concurrency in Golang is indeed very beneficial and this makes go a very useful and efficient tool for web scrapping and a pletora of other things.
+
 ## Files
 
 |   #   | File                  | Description                                              |
 | :---: | --------------------- | -------------------------------------------------------- |
 |   1   | [main.go](https://github.com/SamOlatunde/4143-PLC/blob/main/Assignments/P04/main.go)             | Main program file containing the image downloader logic. |
-|   2   | [download images](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P04/downloaded%20images)             | Contains downloaded images. Images downloaded concurrently are prefixed with a "c" and image download sequentially are prefixed with an "s" |
+|   2   | [download images](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P04/downloaded%20images)             | Contains downloaded images. Images downloaded concurrently are prefixed with a "c" and image downloaded sequentially are prefixed with an "s" |
 
 ## Requirements
 
