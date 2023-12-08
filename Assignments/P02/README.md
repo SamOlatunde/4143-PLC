@@ -6,7 +6,7 @@
 **Instructor notes:** "In this program, we will try and show some advantages of Go when compared to C++ and Python. Every high-level language has its strengths, and I think Golang's can be seen in its similarity to both aforementioned languages, but more so in its library availability. Not as strong as Python's but more so than C++'s. I would like us to create Go's version of a class, that will do some rudimentary image manipulation."
 
 ## ImageManipulator
-This project implements basic image editing, essentially we use the image manipulator package to draw a rectangle on a loaded image and save it to a file named "mustangs.png".
+This project implements basic image editing, essentially we use the image manipulator package to draw a rectangle on a loaded image and save it to a file named "mustangs.png". In this project, we learn more about the basic structure of a go program specifically how to organize our packages and modules so that we have seamless code execution. We also learn about interdirectory and subdirectory imports.
 
 ### Files
 
