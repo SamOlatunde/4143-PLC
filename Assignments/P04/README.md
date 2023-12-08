@@ -31,6 +31,7 @@ Concurrent Logic took **192.0054 ms**.
 |   #   | File                  | Description                                              |
 | :---: | --------------------- | -------------------------------------------------------- |
 |   1   | [main.go](https://github.com/SamOlatunde/4143-PLC/blob/main/Assignments/P04/main.go)             | Main program file containing the image downloader logic. |
+|   2   | [download images](https://github.com/SamOlatunde/4143-PLC/tree/main/Assignments/P04/downloaded%20images)             | Contains downloaded images. Images downloaded concurrently are prefixed with a "c" and image download sequentially are prefixed with an "s" |
 
 ## Requirements
 
